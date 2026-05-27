@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="DbdPerksRoullet.Views.IHaveTwoSides"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title=""
+    Background="#F5EEEE"
+    NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout>
+        <Image
+            HorizontalOptions="CenterAndExpand"
+            Source="i_have_two_sides.png"
+            VerticalOptions="CenterAndExpand"
+            WidthRequest="600" 
+            Margin="0, 0, 150, 0"
+            HeightRequest="600"/>
+    </VerticalStackLayout>
+</ContentPage>

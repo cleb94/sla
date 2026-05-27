@@ -1,0 +1,61 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DbdPerksRoullet
+build_property.ProjectDir = E:\Csharp\MAUI\MAUI\brincadeiras\DbdPerksRoullet\DbdPerksRoullet\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[E:/Csharp/MAUI/MAUI/brincadeiras/DbdPerksRoullet/DbdPerksRoullet/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/Csharp/MAUI/MAUI/brincadeiras/DbdPerksRoullet/DbdPerksRoullet/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/Csharp/MAUI/MAUI/brincadeiras/DbdPerksRoullet/DbdPerksRoullet/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[E:/Csharp/MAUI/MAUI/brincadeiras/DbdPerksRoullet/DbdPerksRoullet/Views/IHaveTwoSides.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Views.IHaveTwoSides.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\IHaveTwoSides.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\IHaveTwoSides.xaml
+
+[E:/Csharp/MAUI/MAUI/brincadeiras/DbdPerksRoullet/DbdPerksRoullet/Views/KillerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Views.KillerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\KillerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\KillerPage.xaml
+
+[E:/Csharp/MAUI/MAUI/brincadeiras/DbdPerksRoullet/DbdPerksRoullet/Views/SuvivorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Views.SuvivorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SuvivorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SuvivorPage.xaml
+
+[E:/Csharp/MAUI/MAUI/brincadeiras/DbdPerksRoullet/DbdPerksRoullet/Views/TabbedPageMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Views.TabbedPageMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TabbedPageMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TabbedPageMenu.xaml

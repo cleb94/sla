@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="DbdPerksRoullet.KillerPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="KillerPage"
+    BackgroundImageSource="home.png"
+    NavigationPage.HasNavigationBar="False">
+
+    <ScrollView>
+        <Grid>
+            <!-- FUNDO CLICAVEL(PRECISA DO GRID)
+            <Label
+                x:Name="boxview"
+                BackgroundColor="Transparent"
+                Opacity="0">
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="KillerPerksReset" />
+                </Label.GestureRecognizers>
+            </Label>-->
+            <VerticalStackLayout>
+
+
+
+                <Image
+                    x:Name="dbd"
+                    Margin="0,70,0,65"
+                    HeightRequest="130"
+                    HorizontalOptions="CenterAndExpand"
+                    Source="dbd_image.png">
+
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <HorizontalStackLayout
+                    x:Name="noPerks"
+                    HorizontalOptions="CenterAndExpand"
+                    Spacing="10">
+
+                    <Image
+                        HeightRequest="75"
+                        Source="dbd_no_perk_k.png"
+                        WidthRequest="75" />
+                    <Image
+                        HeightRequest="75"
+                        Source="dbd_no_perk_k.png"
+                        WidthRequest="75" />
+                    <Image
+                        HeightRequest="75"
+                        Source="dbd_no_perk_k.png"
+                        WidthRequest="75" />
+                    <Image
+                        HeightRequest="75"
+                        Source="dbd_no_perk_k.png"
+                        WidthRequest="75" />
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10">
+
+                    <Image
+                        x:Name="perk1"
+                        HeightRequest="88"
+                        IsVisible="False"
+                        WidthRequest="88" />
+                    <Image
+                        x:Name="perk2"
+                        HeightRequest="88"
+                        IsVisible="False"
+                        WidthRequest="88" />
+                    <Image
+                        x:Name="perk3"
+                        HeightRequest="88"
+                        IsVisible="False"
+                        WidthRequest="88" />
+                    <Image
+                        x:Name="perk4"
+                        HeightRequest="88"
+                        IsVisible="False"
+                        WidthRequest="88" />
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="KillerPerksReset" />
+                    </HorizontalStackLayout.GestureRecognizers>
+
+                </HorizontalStackLayout>
+
+                <Button
+                    Margin="0,70"
+                    BackgroundColor="#CECECE"
+                    BorderColor="Black"
+                    Clicked="KillerPerk"
+                    CornerRadius="22"
+                    FontFamily="OpenSansSemibold"
+                    FontSize="18"
+                    HeightRequest="41"
+                    HorizontalOptions="Center"
+                    Text="ROLETAR PERKS"
+                    TextColor="#000000"
+                    WidthRequest="250" />
+
+                <VerticalStackLayout
+                    Margin="0,77,0,0"
+                    Padding="31,0"
+                    Spacing="03">
+                    <Label
+                        x:Name="text01"
+                        FontFamily="OpenSansSemibold"
+                        FontSize="22"
+                        TextColor="#CC696969" />
+
+                    <Label
+                        x:Name="text02"
+                        FontFamily="OpenSansSemibold"
+                        FontSize="22"
+                        TextColor="#CC696969" />
+
+                    <Label
+                        x:Name="text03"
+                        FontFamily="OpenSansSemibold"
+                        FontSize="22"
+                        TextColor="#CC696969" />
+
+                    <Label
+                        x:Name="text04"
+                        FontFamily="OpenSansSemibold"
+                        FontSize="22"
+                        TextColor="#CC696969" />
+                </VerticalStackLayout>
+
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
