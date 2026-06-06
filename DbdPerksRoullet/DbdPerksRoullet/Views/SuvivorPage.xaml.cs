@@ -205,9 +205,9 @@ public partial class SuvivorPage : ContentPage {
             perks[randomPerk2.Key] = randomPerk2.Value;
             perks[randomPerk3.Key] = randomPerk3.Value;
             perks[randomPerk4.Key] = randomPerk4.Value;
-
         }
 
+        perks = perks.OrderBy(p => p.Value.Length).ToDictionary();
         return perks;
     }
 
@@ -215,7 +215,6 @@ public partial class SuvivorPage : ContentPage {
 
         count += 1;
         if (count == 2) { NoPerks(1); NoPerks(3); count = 0; }
-
 
     }
 
@@ -227,6 +226,8 @@ public partial class SuvivorPage : ContentPage {
             perk2.IsVisible = false;
             perk3.IsVisible = false;
             perk4.IsVisible = false;
+
+            ButtonXD.Margin = new Thickness(0, 0);
         }
         else if (value == 2) {  //aparecem
             noPerks.IsVisible = false;
@@ -234,6 +235,8 @@ public partial class SuvivorPage : ContentPage {
             perk2.IsVisible = true;
             perk3.IsVisible = true;
             perk4.IsVisible = true;
+
+            ButtonXD.Margin = new Thickness(0, -10);
         }
         else if (value == 3) {
             text01.IsVisible = false;
@@ -261,7 +264,6 @@ public partial class SuvivorPage : ContentPage {
         }
 
     }
-
     private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e) {
 
         var en = new PerksEnum();
@@ -274,7 +276,7 @@ public partial class SuvivorPage : ContentPage {
 
             if (count == 10) {
                 count = 0;
-                Navigation.PushAsync(new IHaveTwoSides());
+                Navigation.PushAsync(new XD());
 
                 await Task.Delay(1500); //stek2: quando é com telas o thread.sleep deixa ela congelada para sempre, entao no lugar use isso.
                 await Navigation.PopAsync();  //pro await funcionar voce tem que colocar a assinatura antes do tipo da função. EX no caso esse é Async.

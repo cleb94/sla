@@ -95,6 +95,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<MauiXaml Update="Views\GridTest.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 		<MauiXaml Update="Views\IHaveTwoSides.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
@@ -106,6 +109,9 @@
 		</MauiXaml>
 		<MauiXaml Update="Views\TabbedPageMenu.xaml">
 			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\XD.xaml">
+		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
 	</ItemGroup>
 

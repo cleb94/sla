@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DbdPerksRoullet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.3.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.3.2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.3.2+74a7aed621cbaa3cc2e4943fb2966688ea8dd0de")]
 [assembly: System.Reflection.AssemblyProductAttribute("DbdPerksRoullet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DbdPerksRoullet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.3.2.0")]

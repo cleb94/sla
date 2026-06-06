@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="DbdPerksRoullet.GridTest"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="GridTest"
+    BackgroundColor="AliceBlue"
+    NavigationPage.HasNavigationBar="False">
+
+    <Grid ColumnDefinitions="3.3*, 3.3*, 3.3*" RowDefinitions=" 1.9*, 1.55*, 0*, 2.0*, 0.7*, 3.7*">
+
+        <BoxView
+            Grid.Row="0"
+            Grid.Column="0"
+            IsVisible="True"
+            Color="DarkRed" />
+        <BoxView
+            Grid.Row="1"
+            Grid.Column="0"
+            IsVisible="True"
+            Color="Yellow" />
+        <BoxView
+            Grid.Row="2"
+            Grid.Column="1"
+            IsVisible="True"
+            Color="Blue" />
+        <BoxView
+            Grid.Row="3"
+            Grid.Column="1"
+            IsVisible="True"
+            Color="Gray" />
+        <BoxView
+            Grid.Row="4"
+            Grid.Column="1"
+            IsVisible="True"
+            Color="DarkRed" />
+        <BoxView
+            Grid.Row="5"
+            Grid.Column="1"
+            IsVisible="True"
+            Color="Black" />
+        <BoxView
+            Grid.Row="6"
+            Grid.Column="1"
+            IsVisible="True"
+            Color="Purple" />
+
+        <Image
+            Grid.Row="0"
+            Grid.RowSpan="3"
+            Grid.Column="1"
+            HorizontalOptions="Center"
+            Source="dbd_image.png"
+            VerticalOptions="Center"
+            WidthRequest="210" />
+
+        <Grid
+            x:Name="noPerks"
+            Grid.Row="1"
+            Grid.RowSpan="3"
+            Grid.Column="1"
+            ColumnDefinitions="25*, 25*, 25*, 25*"
+            ColumnSpacing="10"
+            VerticalOptions="Center"
+            WidthRequest="288">
+
+            <Image Grid.Column="0" Source="dbd_no_perk_k.png" />
+            <Image Grid.Column="1" Source="dbd_no_perk_k.png" />
+            <Image Grid.Column="2" Source="dbd_no_perk_k.png" />
+            <Image Grid.Column="3" Source="dbd_no_perk_k.png" />
+        </Grid>
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="1"
+            BackgroundColor="#CECECE"
+            BorderColor="Black"
+            CornerRadius="22"
+            FontFamily="OpenSansSemibold"
+            FontSize="14.5"
+            HeightRequest="36"
+            HorizontalOptions="Center"
+            Text="ROLETAR PERKS"
+            TextColor="#000000"
+            VerticalOptions="End"
+            WidthRequest="250" />
+
+        <Grid
+            Grid.Row="4"
+            Grid.RowSpan="2"
+            Grid.Column="1"
+            HeightRequest="298"
+            RowDefinitions="25*, 25*, 25*, 25*"
+            RowSpacing="0"
+            VerticalOptions="Start"
+            WidthRequest="298">
+
+            <Image
+                x:Name="perk1"
+                Grid.Row="0"
+                IsVisible="False" />
+            <Image
+                x:Name="perk2"
+                Grid.Row="1"
+                IsVisible="False" />
+            <Image
+                x:Name="perk3"
+                Grid.Row="2"
+                IsVisible="False" />
+            <Image
+                x:Name="perk4"
+                Grid.Row="3"
+                IsVisible="False" />
+        </Grid>
+
+    </Grid>
+</ContentPage>

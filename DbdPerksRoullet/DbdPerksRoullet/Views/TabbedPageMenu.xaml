@@ -13,9 +13,9 @@
     SelectedTabColor="Transparent"
     UnselectedTabColor="Transparent">
 
-
     <pages:SuvivorPage />
     <pages:KillerPage />
+    <pages:GridTest />
 
 
 </TabbedPage>

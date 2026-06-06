@@ -36,6 +36,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Resources.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[E:/Csharp/MAUI/MAUI/brincadeiras/DbdPerksRoullet/DbdPerksRoullet/Views/GridTest.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Views.GridTest.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GridTest.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GridTest.xaml
+
 [E:/Csharp/MAUI/MAUI/brincadeiras/DbdPerksRoullet/DbdPerksRoullet/Views/IHaveTwoSides.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Views.IHaveTwoSides.xaml
@@ -59,3 +65,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Views.TabbedPageMenu.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TabbedPageMenu.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\TabbedPageMenu.xaml
+
+[E:/Csharp/MAUI/MAUI/brincadeiras/DbdPerksRoullet/DbdPerksRoullet/Views/XD.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DbdPerksRoullet.Views.XD.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\XD.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\XD.xaml
